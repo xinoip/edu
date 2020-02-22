@@ -14,7 +14,7 @@ Assignment  | Language | Description
 
 ## NPuzzle Game
 
-![NPuzzle Image](http://url/to/img.png)
+![NPuzzle Image](https://github.com/xinoip/edu/blob/readme-assets/NPuzzle-Img.png)
 
 It is a puzzle game where you need to make the board into some correct sequence of numbers.
 You are only able to move the blank space.
