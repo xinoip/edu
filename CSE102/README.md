@@ -27,6 +27,6 @@ Assignment  | Language | Description
 
 ## [Term Project](https://github.com/xinoip/edu/tree/master/CSE102/Term_Project)
 
-![Boulder dash Image](https://github.com/xinoip/edu/blob/readme-assets/BD-Img.png)
+![Vector Image](https://github.com/xinoip/edu/blob/readme-assets/Vector-Img.png)
 
-Custom game engine and a game made with it, boulder dash clone, in C/SDL2.
+Vector graphics library that can plot math graphs and export/import files as EPS and SVG files.
