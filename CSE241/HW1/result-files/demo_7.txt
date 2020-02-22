@@ -1,0 +1,36 @@
+Please enter the problem size: 6
+
+There are 2 available algorithms for intelligent move:
+1 - Stack solution (solves %100)
+2 - Branch&Bound solution (without backtracking, so on stuck cases it may not be able to solve %100)
+Please select the algorithm: 2
+
+
+You can change number of shuffles in main.cpp
+Your initial random board is
+
+1  2  3  4  5  6  
+7  8  9  10 11 12 
+13 14 15 16 __ 18 
+19 20 21 22 17 24 
+25 26 27 28 23 29 
+31 32 33 34 35 30 
+
+Your move (P for auto-solve): P
+Ai is trying to solve board with branch and bound...
+Ai choosed down
+Ai choosed down
+Ai choosed right
+Ai choosed down
+AI tried to solve the board in 4 moves!
+1  2  3  4  5  6  
+7  8  9  10 11 12 
+13 14 15 16 17 18 
+19 20 21 22 23 24 
+25 26 27 28 29 30 
+31 32 33 34 35 __ 
+
+
+
+You win!
+

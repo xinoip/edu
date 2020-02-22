@@ -1,0 +1,78 @@
+Please enter the problem size: 3
+
+There are 2 available algorithms for intelligent move:
+1 - Stack solution (solves %100)
+2 - Branch&Bound solution (without backtracking, so on stuck cases it may not be able to solve %100)
+Please select the algorithm: 1
+
+
+You can change number of shuffles in main.cpp
+Your initial random board is
+
+1  2  3  
+7  4  6  
+__ 5  8  
+
+Your move (P for auto-solve): I
+Intelligence moved right
+1  2  3  
+7  4  6  
+5  __ 8  
+
+Your move (P for auto-solve): I
+Intelligence moved left
+1  2  3  
+7  4  6  
+__ 5  8  
+
+Your move (P for auto-solve): I
+Intelligence moved right
+1  2  3  
+7  4  6  
+5  __ 8  
+
+Your move (P for auto-solve): I
+Intelligence moved left
+1  2  3  
+7  4  6  
+__ 5  8  
+
+Your move (P for auto-solve): I
+Intelligence moved right
+1  2  3  
+7  4  6  
+5  __ 8  
+
+Your move (P for auto-solve): I
+Intelligence moved left
+1  2  3  
+7  4  6  
+__ 5  8  
+
+Your move (P for auto-solve): I
+Intelligence moved up
+1  2  3  
+__ 4  6  
+7  5  8  
+
+Your move (P for auto-solve): I
+Intelligence moved right
+1  2  3  
+4  __ 6  
+7  5  8  
+
+Your move (P for auto-solve): I
+Intelligence moved down
+1  2  3  
+4  5  6  
+7  __ 8  
+
+Your move (P for auto-solve): I
+Intelligence moved right
+1  2  3  
+4  5  6  
+7  8  __ 
+
+
+
+You win!
