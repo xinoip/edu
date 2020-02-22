@@ -31,6 +31,9 @@ Assignment  | Language | Description
 
 Vector graphics library that can plot math graphs and export/import files as EPS and SVG files.
 
-## [Summer Project](https://github.com/xinoip/boulderDash)
+## Summer Project
 
-Custom 2D game engine made with C/SDL2. Clone of boulder dash game.
+[Custom 2D game engine made with C/SDL2 Clone of boulder dash game](https://github.com/xinoip/boulderDash) 
+
+[Custom level editor](https://github.com/xinoip/boulderdash-level-editor) 
+
