@@ -1,5 +1,0 @@
-CES 108, Computer Programming, Proje & Kuveytturk Lab., 160, 6.5;
-CES 102, C Course4, Z10, 112, 3.2;
-TESV, TES V Course, Z10, 112, 3.2;
-CALC 101, Calculus, A5, 112, 3.2;
-BES 120, Sports for all, GYM, 112, 3.2;
