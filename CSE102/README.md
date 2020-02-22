@@ -30,3 +30,7 @@ Assignment  | Language | Description
 ![Vector Image](https://github.com/xinoip/edu/blob/readme-assets/Vector-Img.png)
 
 Vector graphics library that can plot math graphs and export/import files as EPS and SVG files.
+
+## [Summer Project](https://github.com/xinoip/boulderDash)
+
+Custom 2D game engine made with C/SDL2. Clone of boulder dash game.
