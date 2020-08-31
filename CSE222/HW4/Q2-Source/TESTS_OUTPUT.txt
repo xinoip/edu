@@ -1,0 +1,117 @@
+Test addFirst:
+- Trying to addFirst: 1,2,3,4
+- Expected DequeStatus: [4,3,2,1]
+- Expected RemovedStatus: []
+Results addFirst:
+DequeStatus: head -> 4 -> 3 -> 2 -> 1 -> tail
+RemovedStatus: head -> tail
+
+Test clear:
+- Trying to clear deque, removed list will be populated.
+- Expected DequeStatus: []
+- Expected RemovedStatus: [1,2,3,4]
+Results clear:
+DequeStatus: head -> tail
+RemovedStatus: head -> 4 -> 3 -> 2 -> 1 -> tail
+
+Test addLast:
+- Trying to addLast: 7,8,9. Showing that it does not create new nodes instead uses removed nodes.
+- Expected DequeStatus: [7,8,9]
+- Expected RemovedStatus: [4]
+Adding 7 to end...
+DequeStatus: head -> 7 -> tail
+RemovedStatus: head -> 4 -> 3 -> 2 -> tail
+Adding 8 to end...
+DequeStatus: head -> 7 -> 8 -> tail
+RemovedStatus: head -> 4 -> 3 -> tail
+Adding 9 to end...
+Results addLast:
+DequeStatus: head -> 7 -> 8 -> 9 -> tail
+RemovedStatus: head -> 4 -> tail
+
+Test removeFirst:
+- Trying to removeFirst element.
+- Expected DequeStatus: [8,9]
+- Expected RemovedStatus: [4,7]
+Results removeFirst:
+DequeStatus: head -> 8 -> 9 -> tail
+RemovedStatus: head -> 4 -> 7 -> tail
+
+Test removeLast:
+- Trying to removeLast element.
+- Expected DequeStatus: [8]
+- Expected RemovedStatus: [4,7,9]
+Results removeLast:
+DequeStatus: head -> 8 -> tail
+RemovedStatus: head -> 4 -> 7 -> 9 -> tail
+
+Populated the deque with 1,2,3,4,3,1,1 for next test!
+Results Populated:
+DequeStatus: head -> 1 -> 1 -> 3 -> 4 -> 3 -> 2 -> 1 -> 8 -> tail
+RemovedStatus: head -> tail
+
+Test removeFirstOccurrence:
+- Trying to removeFirstOccurrence element 8.
+- Expected DequeStatus: [1,1,3,4,3,2,1]
+- Expected RemovedStatus: [8]
+Results removeFirstOccurrence:
+DequeStatus: head -> 1 -> 1 -> 3 -> 4 -> 3 -> 2 -> 1 -> tail
+RemovedStatus: head -> 8 -> tail
+
+Test removeLastOccurrence:
+- Trying to removeLastOccurrence element 3.
+- Expected DequeStatus: [1,1,3,4,2,1]
+- Expected RemovedStatus: [8,3]
+Results removeLastOccurrence:
+DequeStatus: head -> 1 -> 1 -> 3 -> 4 -> 2 -> 1 -> tail
+RemovedStatus: head -> 8 -> 3 -> tail
+
+Test contains:
+- Trying to find element 2 is existing or not. Expecting true.
+- Expected DequeStatus: [1,1,3,4,2,1]
+- Expected RemovedStatus: [8,3]
+Contains element 2: true
+Results contains:
+DequeStatus: head -> 1 -> 1 -> 3 -> 4 -> 2 -> 1 -> tail
+RemovedStatus: head -> 8 -> 3 -> tail
+
+Test size:
+- Trying to get size. Expecting 6.
+- Expected DequeStatus: [1,1,3,4,2,1]
+- Expected RemovedStatus: [8,3]
+Size of deque: 6
+Results size:
+DequeStatus: head -> 1 -> 1 -> 3 -> 4 -> 2 -> 1 -> tail
+RemovedStatus: head -> 8 -> 3 -> tail
+
+Test iterator:
+- Trying to print deque with iterator.
+- Expected DequeStatus: [1,1,3,4,2,1]
+- Expected RemovedStatus: [8,3]
+itr(1) itr(1) itr(3) itr(4) itr(2) itr(1) 
+Results iterator:
+DequeStatus: head -> 1 -> 1 -> 3 -> 4 -> 2 -> 1 -> tail
+RemovedStatus: head -> 8 -> 3 -> tail
+
+Test descendingIterator:
+- Trying to print deque in reverse with descendingIterator.
+- Expected DequeStatus: [1,1,3,4,2,1]
+- Expected RemovedStatus: [8,3]
+itr(1) itr(2) itr(4) itr(3) itr(1) itr(1) 
+Results descendingIterator:
+DequeStatus: head -> 1 -> 1 -> 3 -> 4 -> 2 -> 1 -> tail
+RemovedStatus: head -> 8 -> 3 -> tail
+
+Test addAll:
+- Trying to add another collection with items 111,211,311.
+- Expected DequeStatus: [1,1,3,4,2,1,111,211,311]
+- Expected RemovedStatus: []
+Results addAll:
+DequeStatus: head -> 1 -> 1 -> 3 -> 4 -> 2 -> 1 -> 111 -> 211 -> 311 -> tail
+RemovedStatus: head -> tail
+
+Test removeAll:
+- Trying to remove items by removeAll: 3,2.
+- Expected DequeStatus: [1,1,4,1,111,211,311]
+- Expected RemovedStatus: [3,4,2]
+DequeStatus: head -> 1 -> 1 -> 4 -> 1 -> 111 -> 211 -> 311 -> tail

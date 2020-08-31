@@ -1,0 +1,25 @@
+If the system does not have make tool
+
+Use this to compile the source:
+	
+	Make a directory ./build
+	mkdir -p ./build
+
+	Compile the code into that directory
+	javac -d ./build ./src/com/pionix/*.java
+
+Use this to if you want to re-build javadoc:
+	
+	Make a directory ./docs
+	mkdir -p ./build
+
+	Build java doc into that directory
+	javadoc -d ./docs ./src/com/pionix/*.java
+
+To run the project
+
+	java -cp ./build com.pionix.Main
+
+To clean the project
+
+	rm -rf ./build

@@ -9,4 +9,5 @@ CSE Code  | Name | Description
 [102](https://github.com/xinoip/edu/tree/master/CSE102)  | Computer Programming | Programming with C language
 [108](https://github.com/xinoip/edu/tree/master/CSE108)  | Lab of CSE102 | Problems that take 1.5hours~ to solve for every lab session
 [241](https://github.com/xinoip/edu/tree/master/CSE241)  | Object Oriented Programming | OOP with C++ and Java language
+[222](https://github.com/xinoip/edu/tree/master/CSE222)  | Data Structures & Algorithms | Data Structures with Java language
 

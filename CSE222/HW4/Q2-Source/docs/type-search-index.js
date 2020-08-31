@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"AbstractNodeList"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"DequeTests"},{"p":"<Unnamed>","l":"DoubleLinkedList"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"MyDeque"},{"p":"<Unnamed>","l":"Node"},{"p":"<Unnamed>","l":"AbstractNodeList.NodeIterator"},{"p":"<Unnamed>","l":"NodeList"}]

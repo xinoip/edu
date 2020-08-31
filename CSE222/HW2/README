@@ -1,0 +1,6 @@
+For compiling:
+	javac Main.java
+is enough
+
+For compiling javadoc:
+	make javadoc

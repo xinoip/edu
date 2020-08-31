@@ -1,0 +1,63 @@
+Test: read from file with ArrayList
+Reading with loop implementation
+[a, b, c, d, e, e, e, e, b, u, g, r, a, f, e, g]
+Elapsed time: 0.861291
+Reading with iterator implementation
+[a, b, c, d, e, e, e, e, b, u, g, r, a, f, e, g]
+Elapsed time: 0.467905
+
+Test: read from file with LinkedList
+Reading with loop implementation
+[a, b, c, d, e, e, e, e, b, u, g, r, a, f, e, g]
+Elapsed time: 0.095939
+Reading with iterator implementation
+[a, b, c, d, e, e, e, e, b, u, g, r, a, f, e, g]
+Elapsed time: 0.08559
+
+Test: add string to index 5 with ArrayList
+Adding string with loop implementation
+[a, b, c, d, e, I, N, S, E, R, T, E, D, e, e, e, b, u, g, r, a, f, e, g]
+Elapsed time: 0.021991
+Adding string with iterator implementation
+[a, b, c, d, e, I, N, S, E, R, T, E, D, I, N, S, E, R, T, E, D, e, e, e, b, u, g, r, a, f, e, g]
+Elapsed time: 0.019767
+
+Test: add string to index 5 with LinkedList
+Adding string with loop implementation
+[a, b, c, d, e, I, N, S, E, R, T, E, D, e, e, e, b, u, g, r, a, f, e, g]
+Elapsed time: 0.014988
+Adding string with iterator implementation
+[a, b, c, d, e, I, N, S, E, R, T, E, D, I, N, S, E, R, T, E, D, e, e, e, b, u, g, r, a, f, e, g]
+Elapsed time: 0.015189
+
+Test: find string INSERTED with ArrayList
+Finding string with loop implementation
+Found at index: 6
+Elapsed time: 19.797084
+Finding string with iterator implementation
+[a, b, c, d, e, I, N, S, E, R, T, E, D, I, N, S, E, R, T, E, D, e, e, e, b, u, g, r, a, f, e, g]
+Found at index: 6
+Elapsed time: 4.810257
+
+Test: find string INSERTED with LinkedList
+Finding string with loop implementation
+Found at index: 6
+Elapsed time: 0.931412
+Finding string with iterator implementation
+[a, b, c, d, e, I, N, S, E, R, T, E, D, I, N, S, E, R, T, E, D, e, e, e, b, u, g, r, a, f, e, g]
+Found at index: 6
+Elapsed time: 0.28864
+
+Test: replace all character e with character * with ArrayList
+Replacing with loop implementation
+Elapsed time: 0.040575
+Replacing with iterator implementation
+[a, b, c, d, *, I, N, S, E, R, T, E, D, I, N, S, E, R, T, E, D, *, *, *, b, u, g, r, a, f, *, g]
+Elapsed time: 0.018495
+
+Test: replace all character e with character * with LinkedList
+Replacing with loop implementation
+Elapsed time: 0.038142
+Replacing with iterator implementation
+[a, b, c, d, *, I, N, S, E, R, T, E, D, I, N, S, E, R, T, E, D, *, *, *, b, u, g, r, a, f, *, g]
+Elapsed time: 0.019196
